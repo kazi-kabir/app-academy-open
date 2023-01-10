@@ -12,3 +12,9 @@ function printFives(max) {
       }
     }
 }
+
+function logBetweenStepper(min, max, stepper) {
+    for(let i = min; i <= max; i+=stepper) {
+        console.log(i);
+    }
+}
